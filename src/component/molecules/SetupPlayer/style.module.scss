@@ -1,0 +1,34 @@
+.button {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+input {
+  width: auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 12px;
+  margin-left: 12px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #ffcc00;
+}

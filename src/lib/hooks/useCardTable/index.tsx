@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { SUIT, RANK } from '../../Utils/Constant';
+import { RANK, SUIT } from '../../constant';
 interface CARD {
     card_type: SUIT,
     card_values: RANK,
@@ -31,23 +31,3 @@ export const useCardTable = create<TABLE_TYPE>((set) => ({
         return { tableData: newTableData };
     })
 }));
-
-
-
-// export const useCardValidateTable = create((set)=> ({
-    
-// }))
-// if(Object.keys(typeData) === passedCardDetails.card_type) {
-//     if(
-//         passedCardDetails.card_values !== CARD_VALUE.ACE &&
-//         passedCardDetails.card_values !== CARD_VALUE.JACK &&
-//         passedCardDetails.card_values !== CARD_VALUE.QUEEN &&
-//         passedCardDetails.card_values !== CARD_VALUE.KING &&
-//     ) {
-
-//         if()
-//         typeData.length.card_values + 1< )
-//     typeData.push(passedCardDetails)
-
-//     }
-// }

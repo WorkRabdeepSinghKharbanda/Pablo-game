@@ -1,0 +1,19 @@
+.button {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+.distribution-container {
+  height: 70vh;
+  width: 98vw;
+}

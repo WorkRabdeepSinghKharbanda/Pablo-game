@@ -1,5 +1,5 @@
+import { RANK, SUIT } from "../../../lib/constant";
 import style from "./style.module.scss";
-import { SUIT, RANK } from "../../Utils/Constant";
 
 interface CardProps {
   suit: SUIT;

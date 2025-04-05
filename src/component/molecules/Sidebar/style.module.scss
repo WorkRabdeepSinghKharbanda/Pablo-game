@@ -1,0 +1,28 @@
+.sidebar {
+  width: 20vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  z-index: 100000;
+  overflow: scroll;
+}
+
+.sidebar > div:nth-child(1) {
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background-color: antiquewhite;
+
+  & p:last-child {
+    font-size: 14px;
+  }
+}
+
+.sidebar > div:nth-child(2) {
+  padding: 1rem;
+  & button:disabled {
+    border: 0px solid transparent;
+    outline: none;
+  }
+}
