@@ -1,0 +1,134 @@
+.option-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    background-color: antiquewhite;
+    padding: 1rem ;
+    z-index: 100000;
+}
+
+.option-container > div {
+    display: flex;
+    overflow-y: scroll;
+    gap: 16px;
+    padding: 1rem;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1b1b1b, #2e2e2e);
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    height: 100vh;
+}
+
+
+/* Game Title */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Player Turn */
+.player-turn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Suit Colors */
+.heart {
+    color: red;
+}
+
+.club {
+    color: black;
+}
+
+.spade {
+    color: black;
+}
+
+.diamond {
+    color: #00d9ff;
+}
+
+/* Buttons */
+.button {
+    background: #ffcc00;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    width: 100%;;
+}
+
+.button:hover {
+    background: #ffdb4d;
+    transform: translateY(-2px);
+}
+
+
+input {
+    width: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 12px;
+    margin-left: 12px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #ffcc00;
+}
+
+/* Button */
+.button {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 15px;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    box-shadow: 0 4px 10px rgba(255, 126, 95, 0.3);
+}
+
+/* Warning Text */
+.warning {
+    font-size: 1rem;
+    margin-top: 15px;
+    color: #ffcc00;
+    font-weight: bold;
+}
