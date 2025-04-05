@@ -66,4 +66,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 
 ## Deploy
-The site is currently deployed at [PABLO GAME](https://pablo-game.netlify.app/)
+The site is currently deployed at [PABLO GAME](https://indian-pablo-game.netlify.app/)
+
+
+## netlify
+```bash
+npm install netlify-cli -g
+netlify deploy
+```
